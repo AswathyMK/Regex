@@ -1,9 +1,11 @@
 import java.util.regex.Pattern;
 import java.util.regex.Matcher;;
 
-public class RegexExample3 {
+public class RegexExample3 
+{
 
-	public static void main(String[] args) {
+	public static void main(String[] args) 
+	{
 		Pattern p = Pattern.compile("H{3}");
 		Matcher m= p.matcher("HHHHHHHH");
 		while(m.find())
