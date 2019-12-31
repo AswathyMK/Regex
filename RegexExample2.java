@@ -17,7 +17,7 @@ public class RegexExample2
 			System.out.println("False");
 		}
 		System.out.println(Pattern.matches("Fa[ac]e", "Fabe")); //true,because either a or c will come after a
-		System.out.println(Pattern.matches("Do\\[", "Do["));//true, 
+		System.out.println(Pattern.matches("Do\\[", "Do[")); //true, 
 		System.out.println(Pattern.matches("Do[\\[\\]]", "Do]"));
 		
 		//Regex Metacharacters
